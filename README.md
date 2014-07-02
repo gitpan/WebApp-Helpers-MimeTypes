@@ -21,17 +21,17 @@ WebApp::Helpers::MimeTypes - simple role for MIME::Types support
 
 # DESCRIPTION
 
-[WebApp::Helpers::MimeTypes](https://metacpan.org/pod/WebApp::Helpers::MimeTypes) is a simple role to hold a
-[MIME::Types](https://metacpan.org/pod/MIME::Types) object and to provide some sugar methods for it.  I
+[WebApp::Helpers::MimeTypes](https://metacpan.org/pod/WebApp::Helpers::MimeTypes) is a simple role that holds a
+[MIME::Types](https://metacpan.org/pod/MIME::Types) object and provides some sugar methods.  I
 work a lot with Microsoft Excel 2007 files, and I hate trying to
-remember that their official mime-type is
-`application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`.
+remember their mime-type
+(`application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`).
 
 # ATTRIBUTES
 
 ## mime\_types
 
-A ["MIME::Types"](#mime-types) object.
+A [MIME::Types](https://metacpan.org/pod/MIME::Types) object.
 
 # METHODS
 

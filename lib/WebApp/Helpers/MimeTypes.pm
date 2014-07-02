@@ -7,7 +7,7 @@ use MIME::Types;
 
 use Moo::Role;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 
 has mime_types => (is => 'ro', lazy => 1,  builder => 1);
@@ -49,17 +49,17 @@ WebApp::Helpers::MimeTypes - simple role for MIME::Types support
 
 =head1 DESCRIPTION
 
-L<WebApp::Helpers::MimeTypes> is a simple role to hold a
-L<MIME::Types> object and to provide some sugar methods for it.  I
+L<WebApp::Helpers::MimeTypes> is a simple role that holds a
+L<MIME::Types> object and provides some sugar methods.  I
 work a lot with Microsoft Excel 2007 files, and I hate trying to
-remember that their official mime-type is
-C<application/vnd.openxmlformats-officedocument.spreadsheetml.sheet>.
+remember their mime-type
+(C<application/vnd.openxmlformats-officedocument.spreadsheetml.sheet>).
 
 =head1 ATTRIBUTES
 
 =head2 mime_types
 
-A L</MIME::Types> object.
+A L<MIME::Types> object.
 
 =head1 METHODS
 

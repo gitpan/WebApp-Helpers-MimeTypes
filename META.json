@@ -56,7 +56,7 @@
    "provides" : {
       "WebApp::Helpers::MimeTypes" : {
          "file" : "lib/WebApp/Helpers/MimeTypes.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -70,6 +70,6 @@
          "web" : "https://github.com/felliott/WebApp-Helpers-MimeTypes"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_authority" : "cpan:FELLIOTT"
 }
